@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<whitebox>
+  <filemonitor>
+    <enabled>true</enabled>
+    <!-- these should be semicolon seperated and in upper case -->
+    <includefilter>WINWORD.EXE;CMD.EXE;</includefilter>
+    <excludefilter>WHITEBOX.EXE;.PF;.TMP;.LOG;NORMAL;.DAT</excludefilter>
+  </filemonitor>
+  <registrymonitor>
+    <enabled>false</enabled>
+    <!-- these should be semicolon seperated and in upper case -->
+    <includefilter>WINWORD.EXE;CMD.EXE;</includefilter>
+    <excludefilter>WHITEBOX.EXE;</excludefilter>
+  </registrymonitor>
+  <networkmonitor>
+    <enabled>true</enabled>
+    <!-- this is actually a pcap filter-->
+    <excludeips>tcp and dst port 80</excludeips>
+    <!-- run with -p to list interfaces -->
+    <interface>4</interface>
+  </networkmonitor>
+  <engine>
+    <tcpport>911</tcpport>
+    <report>true</report>
+    <!-- these can be UNC paths -->
+    <indir>D:\In\</indir>
+    <outdir>D:\Out\</outdir>
+    <tempdir>D:\Temp\</tempdir>
+  </engine>
+</whitebox>

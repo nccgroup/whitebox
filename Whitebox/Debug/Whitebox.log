@@ -1,0 +1,62 @@
+﻿Build started 13/05/2013 23:26:17.
+     1>Project "C:\Data\NCC\!Code\Git.Public\whitebox\Whitebox\Whitebox.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Whitebox.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Data\NCC\!Code\Git.Public\whitebox\3rdParty\winpcap.org\WpdPack_4_0_2\WpdPack\Include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Whitebox.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Data\NCC\!Code\Git.Public\whitebox\3rdParty\winpcap.org\WpdPack_4_0_2\WpdPack\Include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Whitebox.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Configuration.cpp Drivers.cpp Engine.cpp Filemonitor.cpp Networkmonitor.cpp Registrymonitor.cpp Utils.cpp Whitebox.cpp XGetopt.cpp
+         XGetopt.cpp
+         Whitebox.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Utils.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Registrymonitor.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Networkmonitor.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Filemonitor.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Engine.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Drivers.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Configuration.cpp
+     1>c:\data\ncc\!code\git.public\whitebox\whitebox\drivers.h(88): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Data\NCC\!Code\Git.Public\whitebox\Debug\Whitebox.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Data\NCC\!Code\Git.Public\whitebox\3rdParty\winpcap.org\WpdPack_4_0_2\WpdPack\Lib\\" ws2_32.lib packet.lib wpcap.lib XmlLite.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Whitebox.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Data\NCC\!Code\Git.Public\whitebox\Debug\Whitebox.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Data\NCC\!Code\Git.Public\whitebox\Debug\Whitebox.lib" /MACHINE:X86 Debug\Whitebox.exe.embed.manifest.res
+         Debug\Configuration.obj
+         Debug\Drivers.obj
+         Debug\Engine.obj
+         Debug\Filemonitor.obj
+         Debug\Networkmonitor.obj
+         Debug\Registrymonitor.obj
+         Debug\stdafx.obj
+         Debug\Utils.obj
+         Debug\Whitebox.obj
+         Debug\XGetopt.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Whitebox.exe.embed.manifest" /manifest Debug\Whitebox.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Whitebox.vcxproj -> C:\Data\NCC\!Code\Git.Public\whitebox\Debug\Whitebox.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Whitebox.unsuccessfulbuild".
+         Touching "Debug\Whitebox.lastbuildstate".
+     1>Done Building Project "C:\Data\NCC\!Code\Git.Public\whitebox\Whitebox\Whitebox.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Whitebox", "Whitebox\Whitebox.vcxproj", "{B335FC00-00CD-4884-81B1-5C53EF323C1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Whitebox.Controller", "Whitebox.Controller\Whitebox.Controller.vcxproj", "{8841D819-9596-4B53-BAF0-19AF38853647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B335FC00-00CD-4884-81B1-5C53EF323C1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B335FC00-00CD-4884-81B1-5C53EF323C1A}.Debug|Win32.Build.0 = Debug|Win32
+		{B335FC00-00CD-4884-81B1-5C53EF323C1A}.Release|Win32.ActiveCfg = Release|Win32
+		{B335FC00-00CD-4884-81B1-5C53EF323C1A}.Release|Win32.Build.0 = Release|Win32
+		{8841D819-9596-4B53-BAF0-19AF38853647}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8841D819-9596-4B53-BAF0-19AF38853647}.Debug|Win32.Build.0 = Debug|Win32
+		{8841D819-9596-4B53-BAF0-19AF38853647}.Release|Win32.ActiveCfg = Release|Win32
+		{8841D819-9596-4B53-BAF0-19AF38853647}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
